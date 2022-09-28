@@ -1,0 +1,650 @@
+/* -- La Page Complete --*/
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+/* -- Fin La Page Complet --*/
+
+
+
+
+
+
+/* --  accueil --*/
+.accueil{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../images/pageaccueil.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.accueil .content p{
+	color: white;
+	font-size: 38px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+/* -- Fin  accueil --*/
+
+
+
+
+
+
+/* -- Navigation Bar --*/
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.nav2{
+	background-color: #191919;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+	padding-bottom: 2px;
+}
+.nav2 a{
+	text-decoration: none;
+}
+.logo{
+	color: white;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+span{
+	color: #f9004d;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #f9004d;
+	transition: .4s;
+}
+
+/* -- Fin Navigation Bar --*/
+
+
+
+
+/* -- Accueil -- */
+.content{
+	position: absolute;
+	top: 50%;
+	left:8%;
+	transform: translateY(-50%);
+}
+h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/* -- Fin Accueil -- */
+
+
+
+
+
+
+
+
+/*-- VILLE MAROCAINE --*/
+
+
+.villes{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #f9f9f9;
+}
+.ville{
+	color: black;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 50px;
+    width: 45%;
+
+}
+.villes img{
+	height: auto;
+	width: 430px;
+}
+.villes-text{
+	width: 550px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.villes-text h2{
+	color: black;
+	font-size: 32px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.villes-text p{
+	color: black;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+button{
+	background-color:#f9004d;
+	color: black;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+button:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+
+/*-- FIN VILLE MAROCAINE --*/
+
+
+
+/* ------------------------------------------------- Cuisine ----------------------------------*/
+
+.c .cui{
+	color: black;
+	font-size: 60px;
+	text-transform: capitalize;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.c #text1{
+	width: 1000px;
+	font-size: 30px;
+	margin-left: 30px;
+	text-align: left;
+}
+#the{
+	font-size: 60px;
+}
+
+
+
+
+/* colonne flottante un à côte de l'autre */ 
+.column {
+	float: left;
+	width: 25%;
+	padding: 0 10px;
+  }
+  
+
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Responsive  */
+  @media screen and (max-width: 600px) {
+	.column {
+	  width: 100%;
+	  display: block;
+	  margin-bottom: 20px;
+	}
+  }
+  
+
+  .card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 16px;
+	text-align: center;
+	background-color: #f1f1f1;
+	transition: 0.3s;
+  }
+  .card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .contenu {
+	padding: 2px 16px;
+  }
+  .video{
+	margin-left: 126px;
+	display: flex;
+  }
+  .video p{
+	padding-left: 10px;
+	width: 450px;
+	font-size: 16px;
+  }
+  .video iframe{
+	padding-left: 100px;
+	padding-top: 100px;
+  }
+
+
+/*------------------------------------------- -----------------FIN Cuisine -------------------------------------------*/
+
+
+
+
+
+
+
+/* -- sport  -- */
+
+.sport{
+	width: 100%;
+	
+}
+.sport h1{
+	color: black;
+	font-size: 32px;
+	text-transform: capitalize;
+	margin-bottom: 50px;
+	margin-top: 50px;
+
+}
+.sport #part1{
+	display: flex;
+    justify-content: center;
+}
+.sport #part1 #text{
+	margin-left: 25px;
+    width: 50%;
+    padding-top: 2%;
+    font-size: 20px;
+}
+.equipe{
+	justify-content: center;
+	
+}
+.sport #part2{
+	display: flex;
+	justify-content: center;
+}
+.sport #part1 img{
+	width: 90%;
+}
+.sport #part2 #text{
+	margin-left: 25px;
+    width: 50%;
+    padding-top: 2%;
+    font-size: 20px;
+}
+.Athlet .athletImg{
+	padding-top: 20%;
+}
+
+
+/* -- Fin sport-- */
+
+
+
+
+
+
+
+
+
+/* -- Tradition -- */
+
+
+.myrow{
+	justify-content: center;
+	margin-left: 120px;
+}
+.mariage h2{
+	margin-top: 20px;
+	color: black;
+	font-size: 50px;
+	text-transform: capitalize;
+	margin-bottom: 50px;
+    width: 60%;
+}
+.mariage h3{
+	margin-top: 20px;
+	color: black;
+	font-size: 40px;
+	text-transform: capitalize;
+	margin-bottom: 50px;
+    width: 60%;
+}
+.mariage #text{
+	font-size: 28px;
+	width: 70%;
+	margin-bottom: 20px;
+	text-align: left;
+}
+.mariage .grandtext{
+	font-size: 20px;
+	text-align: left;
+	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.elem {
+	float: left;
+	width: 30%;
+	padding: 0 10px;
+	margin-right: 2px;
+}
+.elem img{
+	width: 400px;
+	height: 400px;
+}
+.elem2{
+	float: left;
+	width: 45%;
+
+}
+.elem2 p{
+	text-align: left;
+	padding-left: 60px;
+	font-size: 22px;
+}
+.elem2 video{
+	height: 650px;
+}
+  
+
+
+  .myrow:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Responsive  */
+  @media screen and (max-width: 600px) {
+	.elem {
+	  width: 100%;
+	  display: block;
+	  margin-bottom: 20px;
+	}
+  }
+
+
+/* -- FIN Tradition -- */
+
+
+
+
+
+
+
+/* -- Plan -- */
+
+
+
+.plan{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.plan button{
+	background-color: green;
+	border-color: black;
+
+}
+.plan button a{
+	text-decoration: none;
+}
+
+
+
+/* -- FIN Plan -- */
+
+
+
+
+
+
+
+/* -- Faq Page -- */
+
+.container{
+	margin-top: 80px;
+	height: 100vh;
+	
+}
+.container h1{
+	font-size: 42px;
+	color: black;
+	width: 20%;
+	margin-bottom: 50px;
+
+}
+.rowi{
+	display: flex;
+}
+.faq{
+	width: 800px;
+}
+
+#faq_img{
+	width: 70%;
+	height: 50vh;
+	border-radius: 10px;
+	padding-left: 5%;
+}
+
+details{
+	color: rgb(0, 0, 0);
+	font-size: 1.5rem;
+	padding-right: 5%;
+  }
+  
+  summary {
+	padding: .5em 1.3rem;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;  
+	transition: height 1s ease;
+	background-color: black;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  summary::-webkit-details-marker {
+	display: none;
+  }
+  
+
+  
+  details[open] summary {
+	  border-bottom: 1px solid #aaa;
+	  margin-bottom: .5em;
+  }
+  
+
+  
+  details[open] div{
+	padding: .1em 4em;
+	text-align: left;
+	font-size: 15px;
+  }
+
+  /* -- Fin Faq Page -- */
+
+
+
+
+
+  /* -- Interet -- */
+
+  .interet h2{
+	color: black;
+	font-size: 40px;
+	text-transform: capitalize;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	width: 20%;
+  }
+  .interet .lien{
+	margin-top: 50px;
+  }
+
+
+  /* -- FIN Interet -- */
+
+
+
+
+
+
+
+  /* -- A Propos -- */
+
+
+  .apropos{
+	height: 100vh;
+	display: flex;
+  }
+  .apropos h2{
+	margin-top: 40px;
+	font-size: 48px;
+	width: 20%;
+	margin-bottom: 40px;
+  }
+  .apropos #text{
+	margin-top: 40px;
+	width: 50%;
+	font-size: 38px;
+	padding-left: 100px;
+  }
+
+
+
+  /* -- FIN A Propos -- */
+
+
+
+
+
+
+
+
+
+/* -- Footer -- */
+
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	color: white;
+	font-size: 17px;
+	width: 600px;
+	text-align: center;
+	line-height: 26px;
+}
+footer button a{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+}
+.social{
+	display: flex;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #f9004d;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+footer p{
+	color: white;
+}
+.end{
+	position: absolute;
+	color:#f9004d;
+	bottom: 35px;
+	font-size: 14px; 
+}
+
+/* -- Fin Footer -- */
+
+
+.justifie {
+	text-align: center;
+}
+
+
